@@ -44,8 +44,9 @@ from .journal import (
     cancel_journal_entry
 )
 from .logger import (
-    get_log_files,
-    load_log_file
+    # get_log_files,
+    # load_log_file
+    get_logger
 )
 from .realtime import *
 from .request import (
