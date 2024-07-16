@@ -69,7 +69,7 @@ from .request import (
 )
 from .system import (
     settings,
-    is_enabled,
+    get_settings,
     check_app_status
 )
 from .type import (
